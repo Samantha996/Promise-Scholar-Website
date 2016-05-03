@@ -1,0 +1,83 @@
+
+if($(window).width() <= 1000){
+$(document).ready(function(){
+    $(".week").click(function(){
+	$(this).next(".important-dates").slideToggle("slow");
+    });
+});	
+$(document).ready(function(){
+	$(".myBtn").click(function(){
+		$(this).next(".modal").show({"effect":"fade", "duration": 150});
+	});
+});
+$(document).ready(function(){
+	$(".close").click(function(){
+		$(".modal").hide({"effect":"fade", "duration":150});
+	});
+});
+$(document).ready(function(){
+	$(".modal").click(function(){
+		$(this).hide();
+	});
+});
+$(document).ready(function(){
+	$(".modal-content").click(function(){
+		$(this).show();
+	});
+});
+$(document).ready(function(){
+	$("#advisor-button").click(function(){
+		$(this).next(".advisor-button-info").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#office-button").click(function(){
+	$(this).next(".office-button-info").slideToggle("slow");
+	});
+});
+
+$(document).ready(function(){
+	$(".contact-office").click(function(){
+	$(this).next(".main-contact").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$(".contact-office-1").click(function(){
+	$(this).next(".main-contact").slideToggle("slow");
+	});
+});
+		}
+	
+else{
+$(document).ready(function(){
+	$("#advisor-button").click(function(){
+	$(this).next(".advisor-button-info").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$("#office-button").click(function(){
+	$(this).next(".office-button-info").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$(".contact-office").click(function(){
+	$(this).next(".main-contact").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+	$(".contact-office-1").click(function(){
+	$(this).next(".main-contact").slideToggle("slow");
+	});
+});
+$(document).ready(function(){
+    $(".week").click(function(){
+	$(this).next(".important-dates").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".event-type").click(function(){
+	$(this).next(".event-info").slideToggle("slow");
+    });
+});
+}
