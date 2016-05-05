@@ -7,3 +7,5 @@ The quarter is broken down by weeks, ten in total, so a student can click on a w
 While on desktop version, the weeks will work in the same manner with the exeption of how the event information is viewed. While on desktop version, the user will click on the particular event,and the event information will slide down or up.
 
 As this is the first project I create, there will be quite a few errors. Any feedback is highly aappreciated! I will continue working on this particular website and continue to improve it as my general knowledge in the field grows.
+
+Demo -> http://samantha996.github.io/Promise-Scholar-Website/ 
