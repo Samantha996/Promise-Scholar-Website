@@ -42,7 +42,7 @@
 	justify-content:center;
 	font-size: 3em;
 	letter-spacing:.15em;
-	margin:5% 0 0% 0;
+	margin:2% 0 0% 0;
 	text-align:center;
 	text-transform:uppercase;
 	-webkit-font-smoothing: antialiased;
@@ -153,7 +153,7 @@
 	background-color:#f4f5f5;
 	color:#2c3e50;
 }
-	.email-button-offices{
+	#email-button-offices{
 	margin: .5em 1.5em 0 -1.7em;
 	text-align:center;
 	font-size:1.2em;
@@ -207,7 +207,7 @@
 	.advisor-info{
 	list-style-type:none;
 	}
-	.email-button-advisors{
+	#email-button-advisors{
 	margin: -.5em 0em 0 -2.3em;
 	text-align:center;
 	font-size:1.5em;
@@ -255,7 +255,7 @@
 	}
 /*------------------------------------------------------------------------*/
 	#mobile-padding{
-	padding: 1.5em 0 0 0;
+	padding: 1em 0 0 0;
 	
 	height:100%;
 	}
@@ -317,7 +317,7 @@
 	.background{
 	background-size:100%;
 	}
-	.mobile-dates h2{
+	#mobile-dates h2{
 	width:98%;
 	height:1em;
 	font-size: .85em;
@@ -752,11 +752,11 @@ a:hover{
 	border-radius:1em;
 	width:14.2em;
 }
-.email-button-offices{
+#email-button-offices{
 	margin: 0 2.2em 0 0;
 	text-align:center;
 	}
-.email-button-advisors{
+#email-button-advisors{
 	margin: 0 1.5em 0 0;
 	text-align:center;
 	}
