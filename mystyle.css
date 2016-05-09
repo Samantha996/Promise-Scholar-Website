@@ -614,7 +614,6 @@ a:hover{
 
 /* #### Desktops ####-------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1001px){
-@media all and (min-width:1001px){
 .top-bar{
 	background:#2c3e50;
 	border: 2px solid #ffce34;
